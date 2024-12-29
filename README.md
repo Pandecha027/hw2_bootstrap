@@ -1,1 +1,37 @@
 # hw2_bootstrap
+# คำสั่งที่ใช้
+- git config --global user.name "Pandecha"
+- git config --global user.email "@go.buu.ac.th"
+- git add .
+- git commit -m "เพิ่ม index"
+- git add .
+- git add index.html
+- git commit -m "แก้ index"
+- git add .
+- git commit -m "แก้ index"
+- git add .
+- git commit -m "เพิ่ม contact"
+- git add .
+- git commit -m "เพิ่ม Hero Section"
+- git add .
+- git commit -m "เพิ่ม images"
+- git add .
+- git commit -m "เพิ่ม images และ แก้ index"
+- git add .
+- git commit -m "เพิ่ม css"
+- git add .
+- git commit -m "เพิ่ม images และ แก้ index"
+- git add .
+- git commit -m "เพิ่ม images และ แก้ index "
+- git add .
+- git commit -m "แก้ index"
+- git add .
+- git commit -m "แก้ ฟอนร์น index และ แก้ details"
+- git add .
+- git commit -m "แก้ details"
+- git add .
+- git commit -m "แก้ contact"
+- git add .
+- git commit -m "ตกแต่งหน้าเว็บ"
+- git add .
+- git commit -m "ตกแต่งปุ่นกด"
