@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <a class="navbar-brand" href="#">PDC</a>
+        <title>ติดต่อเรา</title>  
+        <link rel="stylesheet" href="css/styles.css">
+       </head>
+       <body>
+           <div class="grid-container">
+               <header class="header">
+                   
+               <h1>ติดต่อเรา</h1>
+               </header>
+               <nav class="nav" role="navigation">
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="details.html">About</a></li>
+                       <li><a href="contact.html">Contact</a></li>   
+                   </ul>
+                   </nav>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ติดต่อเรา</title>
-    <link rel="stylesheet" href="css/styles-contact.css">
+    <title>ติดต่อเราได้ที่นี่</title>
 </head>
 <style>
     .header {
@@ -16,77 +35,88 @@
       font-weight: bold;          
     }
   </style>
-<body>
-    <div class="grid-container">
-        <header class="header" role="banner">
-            <h1>ติดต่อเรา</h1>
-        </header>
-
-        <nav class="nav" role="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="details.html">About</a></li>
-            </ul>
-        </nav>
-        <main class="main">
-            <h2>ส่งข้อความถึงเรา</h2>
-            <form action="/submit" method="POST">
-                <div class="form-group">
-                    <label for="fullname">ชื่อ-นามสกุล *</label>
-                    <input
-                    type="text"
-                    id="fullname"
-                    name="fullname"
-                    required
-                    aria-required="true"
-                    minlength="2"
-                    maxlength="100"
-                    aria-describedby="fullname-help">
-                    <small id="fullname-help">กรุณากรอกชื่อและนามสกุลจริง</small>
-                </div>
-                <div class="form-group">
-                    <label for="email">อีเมล *</label>
-                    <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    aria-required="true"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                    aria-describedby="email-help">
-                    <small id="email-help">ตัวอย่าง: example@domain.com</small>
-                    </div>
-                <div class="form-group">
-                    <label for="tel">เบอร์โทรศัพท์</label>
-                    <input
-                    type="tel"
-                    id="tel"
-                    name="tel"
-                    pattern="[0-9]{10}"
-                    aria-describedby="tel-help">
-                    <small id="tel-help">กรอกหมายเลข 10 หลัก ไม่ต้องมีขีด เช่น 0812345678</small>
-                    </div>
-                <div class="form-group">
-                    <label for="message">ข้อความ *</label>
-                    <textarea
-                    id="message"
-                    name="message"
-                    required
-                    aria-required="true"
-                    minlength="10"
-                    rows="5"
-                    aria-describedby="message-help"></textarea>
-                    <small id="message-help">กรุณากรอกข้อความอย่างน้อย 10 ตัวอักษร</small>
-                    </div>
-                <button type="submit">ส่งข้อความ</button>
-                </form>
-            </main>
-        <aside class="sidebar">
-            <p>ถ้ามีอะไรที่ต้องการสอบถามสามารถกรอกข้อมูลเพื่อทำการติดต่อสอบถามได้เลย</p>
-        </aside>
-        <footer class="footer">
-            <p>&copy; 2024 เที่ยวจังหวัดฉะเชิงเทรา</p>
-            </footer>
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Section 1: Contact Information -->
+      <div class="col-md-4">
+        <h5>ข้อมูลติดต่อ</h5>
+        <p>ที่อยู่: 116/1 หมู่ 16 จ.ชลบุรี</p>
+        <p>โทร: 0969364769</p>
+        <p>อีเมล: pandechx@gmail.com</p>
+      </div>
+      <!-- Section 2: Social Media Links -->
+      <div class="col-md-4 text-center">
+        <h5>ติดตามเรา</h5>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a>
+        <a href="#" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+      </div>
+      <!-- Section 3: Important Links -->
+      <div class="col-md-4">
+        <h5>ลิงก์สำคัญ</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">หน้าแรก</a></li>
+          <li><a href="#" class="text-white">เกี่ยวกับเรา</a></li>
+          <li><a href="#" class="text-white">บริการ</a></li>
+          <li><a href="#" class="text-white">ติดต่อเรา</a></li>
+        </ul>
+      </div>
     </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<body>
+    <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form Modal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Button to Open Modal -->
+  <div class="container text-center my-5">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+        ติดต่อเราได้ที่นี่
+    </button>
+  </div>
+  <!-- Modal Structure -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">ฟอร์มติดต่อ</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <!-- Contact Form -->
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">ชื่อ</label>
+              <input type="text" class="form-control" id="name" placeholder="กรอกชื่อของคุณ">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">อีเมล</label>
+              <input type="email" class="form-control" id="email" placeholder="กรอกอีเมลของคุณ">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">ข้อความ</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="เขียนข้อความที่ต้องการส่งถึงเรา"></textarea>
+            </div>
+          </form>
+        </div>
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+          <button type="button" class="btn btn-primary">ส่งข้อความ</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
